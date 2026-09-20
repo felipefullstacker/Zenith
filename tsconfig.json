@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@features/*": [
+        "src/features/*"
+      ],
+      "@modules": [
+        "src/modules"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@utils": [
+        "src/utils"
+      ],
+      "@features": [
+        "src/features"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@ui/*": [
+        "src/ui/*"
+      ],
+      "@constants": [
+        "src/constants"
+      ],
+      "@hooks": [
+        "src/hooks"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@core": [
+        "src/core"
+      ],
+      "@config": [
+        "src/config"
+      ],
+      "@ui": [
+        "src/ui"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ]
+    },
+    "module": "esnext"
+  },
+  "extends": "expo/tsconfig.base"
+}

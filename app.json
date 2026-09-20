@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Zenith",
+    "slug": "zenith",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.felipelima.zenith"
+    },
+    "android": {
+      "package": "com.felipelima.zenith"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b7150560-fcbd-4692-8c12-6499cd6110bb"
+      }
+    },
+    "scheme": "zenith"
+  }
+}

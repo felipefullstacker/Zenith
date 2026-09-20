@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Zenith: iniciar web",
+      "type": "npm",
+      "script": "web",
+      "problemMatcher": []
+    },
+    {
+      "label": "Zenith: verificar documentação",
+      "type": "npm",
+      "script": "docs:check",
+      "problemMatcher": []
+    },
+    {
+      "label": "Zenith: verificar tipos",
+      "type": "npm",
+      "script": "typecheck",
+      "group": "test",
+      "problemMatcher": "$tsc"
+    },
+    {
+      "label": "Zenith: lint",
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": []
+    },
+    {
+      "label": "Zenith: exportar web sem carregar .env",
+      "type": "shell",
+      "command": "npx",
+      "args": ["expo", "export", "--platform", "web"],
+      "options": {
+        "env": { "EXPO_NO_DOTENV": "1" }
+      },
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
